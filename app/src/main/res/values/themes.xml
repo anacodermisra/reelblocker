@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base modern dark application theme. -->
+    <style name="Theme.ReelsBlocker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#6366F1</item>
+        <item name="colorPrimaryVariant">#4F46E5</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary / accent color -->
+        <item name="colorSecondary">#4ADE80</item>
+        <item name="colorSecondaryVariant">#22C55E</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar matching sleek dark theme -->
+        <item name="android:statusBarColor">#0F141C</item>
+        <item name="android:windowBackground">#0F141C</item>
+    </style>
+
+    <!-- Transparent theme for blocking overlay if ever needed -->
+    <style name="Theme.Transparent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

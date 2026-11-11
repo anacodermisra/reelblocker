@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reels Blocker</string>
+    <string name="protection_enabled">Protection Enabled</string>
+    <string name="status_active">✅ Protection is active</string>
+    <string name="status_inactive">⏸️ Protection is paused</string>
+    <string name="status_accessibility_disabled">⚠️ Accessibility service not enabled</string>
+    <string name="statistics">Statistics</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="settings">Settings</string>
+    <string name="info_text">This app blocks Instagram Reels and Explore page to help you avoid doomscrolling. Enable the Accessibility Service above to start.</string>
+    <string name="accessibility_service_description">This service monitors Instagram to detect and block Reels content. It only works when Instagram is open and does not collect any data.</string>
+    <string name="reels_blocked">Reels are blocked</string>
+    <string name="explore_blocked">Explore page is blocked</string>
+    <string name="take_break">Take a break from doomscrolling!</string>
+    <string name="go_back">Go Back</string>
+    <string name="block_count_today">Blocks today: %d</string>
+    <string name="block_count_total">Total blocks: %d</string>
+    <string name="time_saved">Time saved: ~%d minutes</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_reset_stats">Reset Statistics</string>
+</resources>
